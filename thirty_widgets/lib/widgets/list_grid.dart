@@ -23,62 +23,62 @@ class _ListGridState extends State<ListGrid> {
       ),
 
       body: Container(
-        child: ListView.builder(
-          itemCount: fruits.length,
-          itemBuilder: (context, index) {
-            return Card(
-              child: ListTile(
-                onTap: () {
-                  print((fruits_person['fruits'][index]));
-                },
-                leading: Icon(Icons.person),
-                title: Text(fruits_person['fruits'][index]),
-                subtitle: Text(fruits_person['names'][index]),
-              ),
-            );
-          },
-        ),
+        // child: ListView.builder(
+        //   itemCount: fruits.length,
+        //   itemBuilder: (context, index) {
+        //     return Card(
+        //       child: ListTile(
+        //         onTap: () {
+        //           print((fruits_person['fruits'][index]));
+        //         },
+        //         leading: Icon(Icons.person),
+        //         title: Text(fruits_person['fruits'][index]),
+        //         subtitle: Text(fruits_person['names'][index]),
+        //       ),
+        //     );
+        //   },
+        // ),
 
-      //   child: GridView(gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
-      //     crossAxisCount: 3,
-      //     mainAxisSpacing: 20,
-      //     crossAxisSpacing: 20),
-      //   children: [
-      //     Card(
-      //       child: Center(child: Text('Orange'))
-      //     ),
-      //     Card(
-      //       child: Center(child: Text('Orange'))
-      //     ),
-      //     Card(
-      //       child: Center(child: Text('Orange'))
-      //     ),
-      //     Card(
-      //       child: Center(child: Text('Orange'))
-      //     ),
-      //     Card(
-      //       child: Center(child: Text('Orange'))
-      //     ),
-      //     Card(
-      //       child: Center(child: Text('Orange'))
-      //     ),
-      //     Card(
-      //       child: Center(child: Text('Orange'))
-      //     ),
-      //     Card(
-      //       child: Center(child: Text('Orange'))
-      //     ),
-      //     Card(
-      //       child: Center(child: Text('Orange'))
-      //     ),
-      //     Card(
-      //       child: Center(child: Text('Orange'))
-      //     ),
-      //     Card(
-      //       child: Center(child: Text('Orange'))
-      //     ),
-      //   ],
-      //   ),
+        child: GridView(gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+          crossAxisCount: 3,
+          mainAxisSpacing: 10,
+          crossAxisSpacing: 10),
+        children: [
+          Card(
+            child: Center(child: Text('Orange'))
+          ),
+          Card(
+            child: Center(child: Text('Orange'))
+          ),
+          Card(
+            child: Center(child: Text('Orange'))
+          ),
+          Card(
+            child: Center(child: Text('Orange'))
+          ),
+          Card(
+            child: Center(child: Text('Orange'))
+          ),
+          Card(
+            child: Center(child: Text('Orange'))
+          ),
+          Card(
+            child: Center(child: Text('Orange'))
+          ),
+          Card(
+            child: Center(child: Text('Orange'))
+          ),
+          Card(
+            child: Center(child: Text('Orange'))
+          ),
+          Card(
+            child: Center(child: Text('Orange'))
+          ),
+          Card(
+            child: Center(child: Text('Orange'))
+          ),
+        ],
+        ),
       //   child: GridView.builder(
       //     itemCount: fruits.length,
       //     gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
