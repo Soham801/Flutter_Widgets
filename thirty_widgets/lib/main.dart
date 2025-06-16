@@ -7,6 +7,7 @@ import 'package:thirty_widgets/widgets/dismissible.dart';
 import 'package:thirty_widgets/widgets/list_grid.dart';
 import 'package:thirty_widgets/widgets/rowscols.dart';
 import 'package:thirty_widgets/widgets/snackbar.dart';
+import 'package:thirty_widgets/widgets/drawer.dart';
 
 void main() => runApp(new MyApp());
 
@@ -21,7 +22,7 @@ class MyApp extends StatelessWidget {
         brightness: Brightness.dark,
         primaryColor: Colors.deepPurple,
       ),
-      home: DismissibleWidget(),
+      home: DrawerWidgetState(),
     );
   }
 }
