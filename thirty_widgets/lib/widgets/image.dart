@@ -19,7 +19,7 @@ class ImageWidget extends StatelessWidget {
                 spreadRadius: 5.0,
               ),
             ],
-            color: Colors.red,
+            color: Colors.black,
             image: DecorationImage(
               image: AssetImage(
                 'assets/BuildZoneLogo.png',
