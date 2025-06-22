@@ -1,6 +1,7 @@
 // ignore_for_file: unused_import
 
 import 'package:flutter/material.dart';
+import 'package:thirty_widgets/widgets/alert.dart';
 import 'package:thirty_widgets/widgets/button.dart';
 import 'package:thirty_widgets/widgets/container_sized.dart';
 import 'package:thirty_widgets/widgets/dismissible.dart';
@@ -23,7 +24,7 @@ class MyApp extends StatelessWidget {
         brightness: Brightness.dark,
         primaryColor: Colors.deepPurple,
       ),
-      home: ImageWidget(),
+      home: AlertWidget(),
     );
   }
 }

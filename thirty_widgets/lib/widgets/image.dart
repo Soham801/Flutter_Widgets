@@ -6,7 +6,7 @@ class ImageWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text('Doraemon Image')),
+      appBar: AppBar(title: Text('Image Widget')),
       body: Center(
         child: Container(
           height: 300,
