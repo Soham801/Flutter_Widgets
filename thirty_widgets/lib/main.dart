@@ -2,6 +2,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:thirty_widgets/widgets/alert.dart';
+import 'package:thirty_widgets/widgets/bottomsheet.dart';
 import 'package:thirty_widgets/widgets/button.dart';
 import 'package:thirty_widgets/widgets/container_sized.dart';
 import 'package:thirty_widgets/widgets/dismissible.dart';
@@ -21,10 +22,10 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        brightness: Brightness.dark,
-        primaryColor: Colors.deepPurple,
+        brightness: Brightness.light,
+        primaryColor: Colors.lightGreenAccent,
       ),
-      home: AlertWidget(),
+      home: BottomSheetWidget(),
     );
   }
 }
