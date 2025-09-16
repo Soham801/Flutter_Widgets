@@ -25,7 +25,7 @@ class MyApp extends StatelessWidget {
         brightness: Brightness.light,
         primaryColor: Colors.lightGreenAccent,
       ),
-      home: BottomSheetWidget(),
+      home: DrawerWidgetState(),
     );
   }
 }
