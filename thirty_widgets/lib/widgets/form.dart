@@ -39,7 +39,7 @@ class _FormWidgetState extends State<FormWidget> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text("Form")),
+      appBar: AppBar(title: Text("Form"),backgroundColor: Colors.red,),
       body: Center(
         child: Container(
           margin: EdgeInsets.all(10),
