@@ -4,8 +4,12 @@ void main() {
   String name = "Soham";
   print(name);
 
-  // var
+  // var identifies the first assigned variable and the same data type can be stored in future
 
   var subject = "Maths";
-  
+
+  dynamic age = "21";
+  print(age);
+  age = 21;
+  print(age);
 }
