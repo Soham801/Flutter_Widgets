@@ -24,6 +24,6 @@ void main() {
   print(section.runtimeType);
   section = false; // Bool
   print(section.runtimeType);
-  section = BigInt.parse('123456789098765212122121214');
+  section = BigInt.parse('123456789098765212122121214'); // BigInt
   print(section.runtimeType);
 }
