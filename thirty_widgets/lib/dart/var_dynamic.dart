@@ -26,4 +26,7 @@ void main() {
   print(section.runtimeType);
   section = BigInt.parse('123456789098765212122121214'); // BigInt
   print(section.runtimeType);
+
+  // Dynamic can also be used using the dynamic variable with the variable name
+  // Ex - dynamic age = 21; //Int // This can be converted into any data type in runtime 
 }
