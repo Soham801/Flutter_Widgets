@@ -12,4 +12,12 @@ void main() {
   print(age);
   age = 21;
   print(age);
+
+  // If var is defined to a variable without any value then the variable becomes dynamic
+  // the variable value can be overriden in run time
+
+  var section;
+
+  section = "d";
+  section = 7;
 }
