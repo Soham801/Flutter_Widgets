@@ -28,5 +28,5 @@ void main() {
   print(section.runtimeType);
 
   // Dynamic can also be used using the dynamic variable with the variable name
-  // Ex - dynamic age = 21; //Int // This can be converted into any data type in runtime 
+  // Ex - dynamic age = 21; //Int // This can be converted into any data type in runtime
 }
