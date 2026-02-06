@@ -31,5 +31,5 @@ void main() {
   // Boolean value
 
   bool isLogin = true;
-  print(isLogin);
+  print(isLogin); // Used in Authentication
 }
