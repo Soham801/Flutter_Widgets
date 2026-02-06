@@ -18,6 +18,12 @@ void main() {
 
   var section;
 
-  section = "d";
-  section = 7;
+  section = "d"; // String
+  print(section.runtimeType);
+  section = 7; // Int
+  print(section.runtimeType);
+  section = false; // Bool
+  print(section.runtimeType);
+  section = BigInt.parse('123456789098765212122121214');
+  print(section.runtimeType);
 }
