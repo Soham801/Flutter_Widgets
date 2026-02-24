@@ -1,6 +1,7 @@
 // ignore_for_file: unused_import, unnecessary_new
 
 import 'package:flutter/material.dart';
+import 'package:thirty_widgets/dart/counter.dart';
 import 'package:thirty_widgets/widgets/alert.dart';
 import 'package:thirty_widgets/widgets/bottomsheet.dart';
 import 'package:thirty_widgets/widgets/button.dart';
@@ -27,7 +28,7 @@ class MyApp extends StatelessWidget {
         brightness: Brightness.light,
         primaryColor: Colors.lightGreenAccent,
       ),
-      home: EWalletApp(),
+      home: Counter(),
     );
   }
 }
